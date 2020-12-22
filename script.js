@@ -16,5 +16,5 @@ const imageMap = new Map([
 ]);
 document.querySelectorAll("img").forEach(elem => {
   const src = elem.getAttribute("src");
-  elem.setAttribute("src", imageMap.get(s));
+  elem.setAttribute("src", imageMap.get(src));
 });
