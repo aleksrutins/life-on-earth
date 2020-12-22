@@ -1,5 +1,12 @@
 body {
   font-family: "Open Sans", sans-serif;
-  text-align: center;
   padding: 15px;
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+img {
+  display: block;
+  max-width: 200px;
+  height: auto;
 }
